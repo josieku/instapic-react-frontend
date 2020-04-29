@@ -1,0 +1,15 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "jsx-quotes": ["error", "prefer-double"],
+        "quotes": ["error", "double"]
+    }
+}

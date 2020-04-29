@@ -1,0 +1,66 @@
+div.FeedContainer {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+div.FeedContainer button#error-button {
+    cursor: none;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div.posts-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    height: auto;
+    width: 100%;
+}
+
+div.posts-container .card {
+    width: 25%;
+    /* height: 40%; */
+    margin: 2.5%;
+    min-width: 250px;
+    min-height: 250px;
+}
+
+div.posts-container .card .card-body {
+    /* padding: 5%; */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 1.25em;
+}
+
+div.posts-container .card .card-subtitle {
+    margin: 0;
+}
+
+div.posts-container .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+div.page-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin-bottom: 2.5%;
+}
+
+div.page-controls button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
